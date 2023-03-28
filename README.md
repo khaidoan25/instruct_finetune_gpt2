@@ -1,6 +1,7 @@
 # instruct_finetune_gpt2
 NLP702 Homework 2 - Instruct
 
+# **Contribution Note: Checkout to new branch from `main` branch before doing anything, and submit a pull request.**
 
 ## Setup
 
@@ -15,8 +16,7 @@ git pull --recurse-submodules
 
 ### Subset of alpaca data
 
-There are already a subset of 5k samples of alpaca data in the folder 
-[./modules/stanford_alpaca/data]. If you want to generate new subset, run
+There are already a subset of 5k samples of alpaca data in the folder [./modules/stanford_alpaca/data](./modules/stanford_alpaca/data/). If you want to generate new subset, run
 
 ```bash
 cd ./modules/stanford_alpaca
@@ -36,4 +36,4 @@ With this option, you need to pay for the ChatGPT API.
 
 ### Generate new data with GPT2
 
-In progress...
+*In progress...*
