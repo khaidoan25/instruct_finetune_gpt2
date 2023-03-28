@@ -37,3 +37,19 @@ With this option, you need to pay for the ChatGPT API.
 ### Generate new data with GPT2
 
 *In progress...*
+
+## Finetune GPT
+
+At first, you need to download the model to your local disk (in case you are using cluster).
+
+Then `cd` in to `modules/stanford_alpaca` folder and set the environment variable `MODEL_PATH`.
+
+```bash
+export MODEL_PATH=<your_model_path>
+```
+
+Run the following commnand to start finetuning
+
+```bash
+bash finetune_gpt.sh
+```
