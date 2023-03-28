@@ -1,0 +1,3 @@
+[submodule "modules/stanford_alpaca"]
+	path = modules/stanford_alpaca
+	url = git@github.com:khaidoan25/stanford_alpaca.git
