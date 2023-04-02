@@ -61,6 +61,8 @@ Then `cd` in to `modules/stanford_alpaca` folder and set the environment variabl
 
 ```bash
 export MODEL_PATH=<your_model_path>
+export OUTPUT_DIR=<output_path>
+export NUM_GPU=<number_of_available_gpus>
 ```
 
 Run the following commnand to start finetuning
