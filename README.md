@@ -9,7 +9,7 @@ dataset
 
 ```bash
 git pull --recurse-submodules
-git submodule update --recursive --remote
+git submodule update --init --recursive
 ```
 
 ## Get dataset
