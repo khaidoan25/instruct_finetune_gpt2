@@ -2,3 +2,4 @@
 	path = modules/stanford_alpaca
 	url = git@github.com:khaidoan25/stanford_alpaca.git
 	branch = gpt2
+	ignore = dirty
